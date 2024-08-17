@@ -4,7 +4,7 @@ category: General
 date: 2021-10-16 15:00:00
 image: /static/img/sponsors/Login.jpg
 layout: post
-title: How to Engage With Fellow Attendees at DjangoCon US 2021 Online
+title: How to Engage With Fellow Attendees at /dev/mtl 2024 Online
 ---
 
 We are excited to bring you a slice of the usual DjangoCon US experience virtually! After not having a conference in 2020, we've prioritized sharing the best of DjangoCon US while remaining safe, accessible and 100% online. Details are emailed to registrants, so we recommend that you [check out the schedule](https://2021.djangocon.us/talks/) today!
@@ -98,4 +98,4 @@ In your **Bio**, we ask that you enter these 4 things:
 
 - SpatialChat is mobile friendly, but to get the best experience we recommend logging on with a PC or tablet.
 
-**Don't miss DjangoCon US 2021!**
+**Don't miss /dev/mtl 2024!**

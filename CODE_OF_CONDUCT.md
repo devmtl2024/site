@@ -73,7 +73,7 @@ or otherwise create a sexualized environment.
 
 ## Photography
 
-In order to make DjangoCon US 2021 a great experience for everyone, do not
+In order to make /dev/mtl 2024 a great experience for everyone, do not
 photograph, video, or audio record anyone at DjangoCon without their express
 permission, sought in advance. If someone does not want to be photographed,
 video or audio recorded, please respect their wishes.

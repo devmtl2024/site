@@ -109,7 +109,7 @@ Below are some examples of commonly-used Markdown syntax. If you want to dive de
 
 ### Links
 
-[DjangoCon US 2021](https::2021.djangocon.us) - `[DjangoCon US 2021](https::2021.djangocon.us)`
+[/dev/mtl 2024](https::2021.djangocon.us) - `[/dev/mtl 2024](https::2021.djangocon.us)`
 
 ### Inline Images
 

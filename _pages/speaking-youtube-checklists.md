@@ -33,7 +33,7 @@ Copy title to clipboard
   <li><input type="checkbox">Did the link above open the correct video?</li>
   <li><input type="checkbox">Set title from this page</li>
   <li><input type="checkbox">Set description from this page</li>
-  <li><input type="checkbox">Is it on the DjangoCon US 2021 Playlist?</li>
+  <li><input type="checkbox">Is it on the /dev/mtl 2024 Playlist?</li>
   <li><input type="checkbox">Set to "not made for kids"</li>
   <li><input type="checkbox">Set as "contains paid promotion"</li>
   <li><input type="checkbox">Language set appropriately</li>

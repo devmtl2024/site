@@ -1,8 +1,8 @@
-# Contributing to DjangoCon US 2021
+# Contributing to /dev/mtl 2024
 
 :thumbsup: :tada: Thank you so much for taking the time to contribute! :tada: :thumbsup:
 
-The following is a set of guidelines for contributing to DjangoCon US 2021.
+The following is a set of guidelines for contributing to /dev/mtl 2024.
 
 
 ## How Can I Help?

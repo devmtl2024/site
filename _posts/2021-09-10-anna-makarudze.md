@@ -7,7 +7,7 @@ layout: post
 title: 'Announcing Our Invited Speaker: Anna Makarudze'
 ---
 
-We are so excited to announce our invited speaker for DjangoCon US 2021: Anna Makarudze!
+We are so excited to announce our invited speaker for /dev/mtl 2024: Anna Makarudze!
 
 <img src="/static/img/speakers/anna-makarudze.jpg" alt="Photo of Anna Makarudze" style="width:45%; display:block; float:right;" />
 
