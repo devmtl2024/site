@@ -1,0 +1,30 @@
+<li><a href="/talks/">Talk Schedule</a></li>
+<li><a href="/news/">News</a></li>
+<li><a href="/sponsors/">Sponsors</a></li>
+<li><a href="/jobs/">Jobs Board</a></li>
+<li class="is-dropdown-submenu-parent">
+  <a href="/about/" aria-haspopup="true" aria-expanded="false">About</a>
+  <ul class="menu vertical nested">
+    <li><a href="/about/">About DjangoCon US</a></li>
+    <li><a href="/conduct/">Code of Conduct</a></li>
+    <li><a href="/organizers/">Organizers</a></li>
+    <li><a href="/speaking/">Speaking</a></li>
+  </ul>
+</li>
+
+<script type="text/javascript">
+  var menuItems = document.querySelectorAll('li.is-dropdown-submenu-parent');
+  Array.prototype.forEach.call(menuItems, function(el, i){
+    el.querySelector('a').addEventListener("click",  function(event){
+      if (this.parentNode.className == "has-submenu") {
+        this.parentNode.className = "has-submenu open";
+        this.setAttribute('aria-expanded', "true");
+      } else {
+        this.parentNode.className = "has-submenu";
+        this.setAttribute('aria-expanded', "false");
+      }
+      event.preventDefault();
+      return false;
+    });
+  });
+</script>
