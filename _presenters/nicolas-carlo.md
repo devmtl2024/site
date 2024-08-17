@@ -2,10 +2,10 @@
 company: ''
 github: maxday
 layout: speaker-template
-name: Maxime David
-permalink: /presenters/maxime-david
-photo_url: /static/img/presenters/maxime-david.jpg
-slug: maxime-david
+name: Nicolas Carlo
+permalink: /presenters/nicolas-carlo
+photo_url: /static/img/presenters/nicolas-carlo.jpeg
+slug: nicolas-carlo
 twitter: _maxday
 website: https://maxday.dev
 ---

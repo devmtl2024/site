@@ -2,10 +2,10 @@
 company: ''
 github: maxday
 layout: speaker-template
-name: Maxime David
-permalink: /presenters/maxime-david
-photo_url: /static/img/presenters/maxime-david.jpg
-slug: maxime-david
+name: Cassandre Pochet
+permalink: /presenters/cassandre-pochet
+photo_url: /static/img/presenters/cassandre-pochet.jpeg
+slug: cassandre-pochet
 twitter: _maxday
 website: https://maxday.dev
 ---

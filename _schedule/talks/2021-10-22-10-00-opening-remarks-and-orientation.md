@@ -8,11 +8,10 @@ image: /static/img/social/presenters/kojo-idrissa.png?v=2021-10-04
 layout: session-details
 permalink: /talks/opening-remarks-and-orientation/
 presenter_slugs:
-- maxime-david
-- kojo-idrissa
-- katia-lira
-- catherine-holmes
-- josue-balandrano-coronel
+- xavier-bouclet
+- nicolas-carlo
+- cassandre-pochet
+- cedric-l-homme
 presenters:
 - bio: Drew (he/him) is the Vice President of the Django Events Foundation North America
     and the Program Chair of DCUS 2021. In his day job, he's a Senior Backend Engineer
