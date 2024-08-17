@@ -1,55 +1,129 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: /dev/mtl
+url: "https://devmtl2024.github.io/site/"
+author : Dev Mtl
+description: |
+  Dev Mtl 2024 will take place online on November 27, 2024!
+#enforce_ssl: "2021.djangocon.us"
+relative_permalinks: false
+permalink: news/:title/  # permalink: date
+timezone: America/Toronto
+conf_year: 2024
 
-title: /dev/mtl 2024
-email: devmontreal.conf@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+include:
+  - _pages
 
 # Build settings
-theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
+markdown: kramdown
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+plugins:
+- jekyll-feed
+- jekyll-gist
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+exclude:
+- "*.yaml"
+- "*.yml"
+- .cache
+- .editorconfig
+- .gitignore
+- .vendor
+- bin
+- bower_components
+- CNAME
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- docker-compose.yml
+- EDITORS_GUIDE.md
+- Gemfile
+- Gemfile.lock
+- justfile
+- LICENSE
+- Makefile
+- node_modules
+- NOTES.md
+- package*.json
+- Procfile
+- README.md
+- requirements.in
+- vendor
+- webpack.config.js
+
+# We need `future` to allow our schedule to work :/
+future: true
+
+collections:  # process the _data folder
+  components:
+    output: false
+  schedule:
+    output: true
+    permalink: /:collection/:name/
+  organizers:
+    output: false
+    permalink: /:collection/
+  presenters:
+    output: true
+    permalink: /:collection/
+  sponsors:
+    output: false
+    permalink: /:collection/
+  places:
+    output: false
+    permalink: /:collection/
+  jobs:
+    output: true
+    permalink: /:collection/:name/
+
+# SEO Plugin settings
+
+twitter:
+  username: djangocon
+
+# This is the default logo that people see with opengraph
+# logo: /static/2021-logos/squares-and-social/djangocon-square.png
+logo: /static/img/social/og.png
+
+
+# Frontmatter fallback settings
+# This is the default logo that people see on blog posts
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /static/img/social/avatar-main.png
+  - scope:
+      path: "_presenters"
+      type: presenters
+    values:
+      sitemap: false
+
+# Our DjangoCon US settings...
+
+schedule_show_video_urls: true
+
+## All the email addresses
+conduct_email: "conduct@djangocon.us"
+contact_us_email: "hello@djangocon.us"
+opportunity_grants_email: "grants@djangocon.us"
+program_team_email: "program@djangocon.us"
+sponsors_email: "sponsors@djangocon.us"
+visa_email: "visas@djangocon.us"
+
+## Our DjangoCon US links
+cfp_application: "https://www.papercall.io/djangocon-us-2021"
+hotel_reservation_link: ""
+mailing_list: "http://eepurl.com/bpvu2f"
+opportunity_grant_application: ""
+slack_link: ""
+sponsorship_prospectus: ""
+ticket_link: "https://ti.to/defna/djangocon-us-2021"
+# youtube_link: ""
+
+github: [metadata]
+facebook:
+  app_id: 280981518972848
