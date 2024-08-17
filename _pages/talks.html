@@ -7,6 +7,38 @@ published: true
 sitemap: true
 title: Talks Schedule
 ---
+<!-- talks: fr -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Présentation: Mercredi 27 Novembre</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+      {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+      {% if day == 'Wednesday' and post.language == 'fr' %}
+      {% include schedule-talks-day.html %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: fr -->
+
+<!-- talks: en -->
+<section class="section-pad schedule">
+  <div class="row column">
+    <h2 class="day">Talks: Wednesday, November 27</h2>
+    <ul class="schedule">
+      {% for post in site.schedule %}
+      {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
+      {% if day == 'Wednesday' and post.language == 'en' %}
+      {% include schedule-talks-day.html %}
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+<!-- talks: en -->
+
 
 <!-- talks: day 1 -->
 <section class="section-pad schedule">
