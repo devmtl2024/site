@@ -183,12 +183,12 @@ title: 2021 DjangoCon US Recap
       {% unless presenter.hidden %}
       {% if presenter.name %}
       <a
-        href="{{ presenter.permalink }}"
+        href="{{ site.url }}{{ presenter.permalink }}"
         class="mini-profile-byline column small-6 medium-4">
         {% if presenter.photo_url != blank %}
         <img
           class="avatar"
-          src="{{ presenter.photo_url }}"
+          src="{{ site.url }}{{ presenter.photo_url }}"
           alt="Photo of {{ presenter.name }}"/>
         {% endif %}
         {{ presenter.name }}
