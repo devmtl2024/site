@@ -46,7 +46,7 @@ jobs:
           node-version: '20'
 
       - name: Install NPM dependencies
-        run: npm install .
+        run: npm install --force .
 
       - name: Run NPM script
         run: npm run build
