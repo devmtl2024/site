@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Diamond"
 name: "Summit Technology Group (STG)"
 logo: "/static/img/sponsors/STG_condensed.png"

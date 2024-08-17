@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Speaker Support"
 name: "Six Feet Up"
 logo: "/static/img/sponsors/SFUHorizontalLogo.png"

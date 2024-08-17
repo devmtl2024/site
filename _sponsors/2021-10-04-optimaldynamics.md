@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Bronze"
 name: "Optimal Dynamics"
 logo: "/static/img/sponsors/ODLogo_Black.svg"

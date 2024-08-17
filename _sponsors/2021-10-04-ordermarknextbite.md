@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Bronze"
 name: "Nextbite"
 logo: "/static/img/sponsors/Nextbite.png"

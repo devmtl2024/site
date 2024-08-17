@@ -1,7 +1,7 @@
 ---
 layout: base
 
-hidden: false
+hidden: true
 level: "Virtual Conference Hall"
 name: "REVSYS"
 logo: "/static/img/sponsors/revsys.png"
