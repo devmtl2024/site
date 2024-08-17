@@ -7,10 +7,10 @@ layout: base
     {% if page.heading %}{{ page.heading }}{% else %}{{ page.title }}{% endif %}
   </h1>
   <p class="lead">
-    <local-time datetime="{{ page.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric"
+    <relative-time datetime="{{ page.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric"
       time-zone-name="short">
       {{ page.date | date: "%b %d %l:%M %p %Z" }}
-    </local-time>
+    </relative-time>
     <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Chicago" aria-label="View talk time on time.is">:calendar:</a>
     {% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
     {% comment %}, in {{ page.room }}{% endcomment %}

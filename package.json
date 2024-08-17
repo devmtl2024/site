@@ -1,12 +1,11 @@
 {
   "name": "DevMtl",
   "version": "1.0.0",
-  "description": "DjangoCon US Website",
+  "description": "/Dev/Mtl Website",
   "devDependencies": {
     "all-contributors-cli": "^6.20.0",
     "css-loader": "^7.1.2",
-    "fibers": "^4.0.2",
-    "mini-css-extract-plugin": "^0.9.0",
+    "mini-css-extract-plugin": "^2.9.0",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
