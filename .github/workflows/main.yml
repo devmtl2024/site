@@ -46,7 +46,7 @@ jobs:
           node-version: '18'
 
       - name: Install NPM dependencies
-        run: npm install --force .
+        run: npm install .
 
       - name: Run NPM script
         run: npm run build
@@ -56,7 +56,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}/site"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
