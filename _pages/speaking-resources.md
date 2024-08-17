@@ -1,5 +1,5 @@
 ---
-description: Resources to support DjangoCon 2021 speakers
+description: Resources to support /dev/mtl 2024 speakers
 heading: Speaker Resources
 layout: default
 permalink: /speaking/speaker-resources/
