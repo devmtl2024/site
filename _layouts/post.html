@@ -13,8 +13,8 @@ layout: base
 
       {% if page.post_photo_url %}
         <img
-          src="{{ page.post_photo_url }}"
-          alt="{{ page.post_photo_alt }}"
+          src="{{ site.url }}{{ page.post_photo_url }}"
+          alt="{{ site.url }}{{ page.post_photo_alt }}"
           class="post-photo" />
       {% endif %}
 

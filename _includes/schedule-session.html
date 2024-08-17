@@ -37,7 +37,7 @@
           {% if presenter.photo_url != blank %}
           <img
             class="avatar"
-            src="{{ presenter.photo_url }}"
+            src="{{ site.url }}{{ presenter.photo_url }}"
             alt="Photo of {{ presenter.name }}" />
           {% endif %}
           {{ presenter.name }}
