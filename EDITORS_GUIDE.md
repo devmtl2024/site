@@ -31,10 +31,10 @@ Pages are stored in `_pages/` and correspond to the different HTML pages on the 
 - **title**: Title of the page. Appears in the browser window.
 - **heading**: Title of the page. Appears at the top of the body of the page.
 - **permalink**: The URL path
-- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://2021.djangocon.us/styleguide/#photo-hero-section)
+- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://devmtl2024.github.io/site/styleguide/#photo-hero-section)
 - **testimonial_img_mobile**: Same as **testimonial_img**, but for mobile
 - **hero_text_align**: How you want the text in the photo hero to be aligned
-- **hero-theme**: The [brand color](https://2021.djangocon.us/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
+- **hero-theme**: The [brand color](https://devmtl2024.github.io/site/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
 - **description**: A description of this page
 
 ### Places
@@ -109,7 +109,7 @@ Below are some examples of commonly-used Markdown syntax. If you want to dive de
 
 ### Links
 
-[/dev/mtl 2024](https::2021.djangocon.us) - `[/dev/mtl 2024](https::2021.djangocon.us)`
+[/dev/mtl 2024](https://devmtl2024.github.io/site/) - `[/dev/mtl 2024](https://devmtl2024.github.io/site/)`
 
 ### Inline Images
 
@@ -139,11 +139,9 @@ We support native [Liquid tags](https://shopify.github.io/liquid/). The ones you
 
 The double-moustache indicates a variable. You can use the variables in the front matter, or variables from `_config.yml`. To use variables from `_config.yml`, prefix with `site`:
 
-`{{ site.contact_us_email }}` will render as "hello@djangocon.us"
-
 ### `{% if %}`
 
-If you have used Django, you'll be pleased to know the `{% if %}` tag is very similar. Example:
+The `{% if %}` tag allows you to conditionally render something. Example:
 
 ```
 {% if sponsor.level == "Gold" %}This is a Gold sponsor{% endif %}
@@ -151,7 +149,7 @@ If you have used Django, you'll be pleased to know the `{% if %}` tag is very si
 
 ### `{% for %}`
 
-The `{% for %}` tag also works very similarly to how it does in Django. To cycle through a collection (like all the places, for example), would look like this:
+To cycle through a collection (like all the places, for example), would look like this:
 
 ```
 {% for place in site.places %}
@@ -161,7 +159,7 @@ The `{% for %}` tag also works very similarly to how it does in Django. To cycle
 
 ###  Other tags
 
-Look into [assign](https://shopify.github.io/liquid/tags/variable/) and see it used [in the sponsors footer](https://github.com/djangocon/2021.djangocon.us/blob/develop/_includes/sponsor-footer.html#L3).
+Look into [assign](https://shopify.github.io/liquid/tags/variable/).
 
 _Based on the [Editor's Guide](https://dev.to/p/editor_guide) from Dev.to._
 

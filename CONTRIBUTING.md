@@ -7,16 +7,16 @@ The following is a set of guidelines for contributing to /dev/mtl 2024.
 
 ## How Can I Help?
 
-Start looking through the [Issues](https://github.com/djangocon/2021.djangocon.us/issues) and watch out for any issues with the yellow label [`up-for-grabs`](https://github.com/djangocon/2021.djangocon.us/labels/up-for-grabs). Issues marked with this label haven't been assigned to anyone yet and we would love for you to work on them.
+Start looking through the [Issues](https://github.com/devmtl2024/site/issues) and watch out for any issues with the yellow label [`up-for-grabs`](https://github.com/devmtl2024/site/labels/up-for-grabs). Issues marked with this label haven't been assigned to anyone yet and we would love for you to work on them.
 
 
 ## Difficulty Levels
 
 Here's a quick guide to help you understand what the different difficulty labels mean that you will find while looking through the issues:
 
-[`difficulty: easy`](https://github.com/djangocon/2021.djangocon.us/labels/difficulty%3A%20easy): Fixing this issue doesn't require a lot of time or programming knowledge. This would be a great issue for someone new to programming or open source to work on.
-[`difficulty: medium`](https://github.com/djangocon/2021.djangocon.us/labels/difficulty%3A%20medium): This is an issue which requires more time or programming knowledge than a `difficulty: easy` issue but you don't have to be a programming expert to fix it.
-[`difficulty: hard`](https://github.com/djangocon/2021.djangocon.us/labels/difficulty%3A%20hard): This issue probably requires some time or a good bit of programming knowledge and could be a challenge, but this shouldn't keep you from trying to submit a patch for it :wink:
+[`difficulty: easy`](https://github.com/devmtl2024/site/labels/difficulty%3A%20easy): Fixing this issue doesn't require a lot of time or programming knowledge. This would be a great issue for someone new to programming or open source to work on.
+[`difficulty: medium`](https://github.com/devmtl2024/site/labels/difficulty%3A%20medium): This is an issue which requires more time or programming knowledge than a `difficulty: easy` issue but you don't have to be a programming expert to fix it.
+[`difficulty: hard`](https://github.com/devmtl2024/site/labels/difficulty%3A%20hard): This issue probably requires some time or a good bit of programming knowledge and could be a challenge, but this shouldn't keep you from trying to submit a patch for it :wink:
 
 
 ## Reporting bugs
@@ -31,16 +31,7 @@ After you've created a patch that fixes an issue, please submit a pull request f
 If you are not ready for your pull request to be immediately merged, you can let those reviewing pull requests know by using the acronym WIP (Work in Progress) or a similar message in your pull request title.
 
 
-## Reviewing Issues and Pull Requests
-
-You're welcome to review issues and pull requests, provide feedback, and answer questions. Please remember to be friendly and respectful when commenting on issues or pull requests, and always follow our [Code of Conduct](https://www.djangoproject.com/conduct/). It's okay for people to make mistakes and ask questions!
-
-
 ## How Can I Get Help?
 
 If you have a question or need help, please leave a comment on the issue you have a question about or are working on. We will try to answer your question and help you as soon as possible.
 
-
-## Code of Conduct
-
-As a contributor, you can help us keep the Django community open and inclusive. Please read and follow our [Code of Conduct](https://www.djangoproject.com/conduct/), and report unacceptable behavior to <a href="mailto:conduct@djangocon.us">Code of Conduct committee</a>.

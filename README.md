@@ -1,12 +1,10 @@
-# 2021.djangocon.us
+# /dev/mtl 2024
 
-[![Contributors](https://img.shields.io/github/contributors/djangocon/2021.djangocon.us.svg)](https://github.com/djangocon/2021.djangocon.us/graphs/contributors)
-
-The 2021 DjangoCon.us website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/).
+The /dev/mtl 2024 website is a static site compiled with [Jekyll](https://jekyllrb.com/docs/home/). The frontend relies heavily on the [Foundation](http://foundation.zurb.com/sites/docs/) framework. Frontend dependencies are installed and updated with [npm](https://www.npmjs.com/).
 
 ## Code of Conduct
 
-As a contributor, you can help us keep the Django community open and inclusive.
+As a contributor, you can help us keep the community open and inclusive.
 Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Getting Started
@@ -15,7 +13,7 @@ Get started contributing by reading our [Contributing](CONTRIBUTING.md) guidelin
 
 ### Contributing via Browser
 
-1. Navigate to the [DjangoCon U.S. website repo](https://github.com/djangocon/2021.djangocon.us) on GitHub. In the upper right hand corner of the repo, click the "Fork" button. Alternatively, click on an individual file and click the pencil icon. GitHub will automatically fork the repo for you.
+1. Navigate to the [/dev/mtl](https://github.com/devmtl2024/site) on GitHub. In the upper right hand corner of the repo, click the "Fork" button. Alternatively, click on an individual file and click the pencil icon. GitHub will automatically fork the repo for you.
 
 2. Head over to your GitHub account, where you will find the forked repo. This is a copy of the official code. Your changes to this forked code will not affect the official code, unless you submit a pull request and an admin merges your pull request.
 
@@ -44,13 +42,13 @@ For changes that require cloning/running the code locally, follow the above inst
 Clone your forked repo locally via the terminal, replacing the username in the URL with your own (note: not all operating systems will use a `$` as a terminal prompt).
 
 ```bash
-$ git clone https://github.com/<your-username>/2021.djangocon.us
+$ git clone https://github.com/<your-username>/devmtl2024
 ```
 
 Change directory into the folder
 
 ```bash
-$ cd 2021.djangocon.us
+$ cd devmtl2024
 ```
 
 Verify that you are on the `main` branch
@@ -113,44 +111,7 @@ $ git push origin main
 
 You will then resume the process at step 6 to submit a pull request.
 
-If you plan to continue working locally and submitting pull requests, you may want to add an upstream remote locally that points to the DjangoCon US repo, in order to fetch changes. You may also want to consider creating a feature branch (also known as a "topic" branch), making your changes there (instead of in the `main` branch), pushing to GitHub and submitting the update via pull request. You can then keep your `main` branch up-to-date while working on multiple features.
-
-### Adding Contributors
-
-If you have gone through the previous installation steps, the `all-contributors-cli` package should already be installed locally by npm. The developer dependency and scripts can be found in `package.json` and the init config and JSON entries in the `.all-contributorsrc` file.
-
-To add a contributor by GitHub username (this will add a JSON entry to `.all-contributorsrc` and add the contributor to the `README` list), run the following command, hitting enter twice to avoid choosing any contribution type
-
-```bash
-$ npm run add -- <username>
-hit enter twice
-```
-
-To generate a README list from the `.all-contributorsrc` file
-
-```bash
-$ npm run generate
-```
-
-## Contributors
-
-Thanks goes to these wonderful people:
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| <a href='http://mtrythall.com'><img src='https://avatars2.githubusercontent.com/u/84750?v=3' width='72px;'/></a> | <a href='http://jefftriplett.com/'><img src='https://avatars2.githubusercontent.com/u/50527?v=3' width='72px;'/></a> | <a href='http://KellyCreativeTech.com'><img src='https://avatars3.githubusercontent.com/u/202590?v=3' width='72px;'/></a> | <a href='http://laceyhenschel.com'><img src='https://avatars2.githubusercontent.com/u/2286304?v=3' width='72px;'/></a> | <a href='http://katherinemichel.github.io'><img src='https://avatars3.githubusercontent.com/u/4193054?v=3' width='72px;'/></a> | <a href='http://www.PeregrineSalon.com'><img src='https://avatars3.githubusercontent.com/u/68164?v=3' width='72px;'/></a> | <a href='https://github.com/rebkin05'><img src='https://avatars1.githubusercontent.com/u/13985355?v=3' width='72px;'/></a> | <a href='https://github.com/deatonjm'><img src='https://avatars0.githubusercontent.com/u/3345131?v=3' width='72px;'/></a> |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <a href='http://twitter.com/webmedic'><img src='https://avatars1.githubusercontent.com/u/744669?v=3' width='72px;'/></a> | <a href='https://github.com/Nandutu'><img src='https://avatars1.githubusercontent.com/u/7518308?v=3' width='72px;'/></a> | <a href='http:/anna-oz.tumblr.com'><img src='https://avatars2.githubusercontent.com/u/8700795?v=3' width='72px;'/></a> | <a href='http://about.me/craigbruce'><img src='https://avatars2.githubusercontent.com/u/1503648?v=3' width='72px;'/></a> | <a href='https://github.com/daheats'><img src='https://avatars2.githubusercontent.com/u/20408533?v=3' width='72px;'/></a> | <a href='https://github.com/jessiofhall'><img src='https://avatars0.githubusercontent.com/u/12751372?v=3' width='72px;'/></a> | <a href='https://github.com/SaraDGore'><img src='https://avatars3.githubusercontent.com/u/2285473?v=3' width='72px;'/></a> | <a href='http://kojoidrissa.com/'><img src='https://avatars3.githubusercontent.com/u/5251109?v=3' width='72px;'/></a> |
-| <a href='https://github.com/moniquemurphy'><img src='https://avatars0.githubusercontent.com/u/13872721?v=3' width='72px;'/></a> | <a href='https://github.com/amfitz'><img src='https://avatars0.githubusercontent.com/u/15040326?v=3' width='72px;'/></a> | <a href='https://github.com/cholmes5'><img src='https://avatars2.githubusercontent.com/u/27741978?v=3' width='72px;'/></a> | <a href='http://www.databasesoup.com'><img src='https://avatars3.githubusercontent.com/u/115146?v=3' width='72px;'/></a> | <a href='http://glasnt.com'><img src='https://avatars0.githubusercontent.com/u/813732?v=3' width='72px;'/></a> | <a href='https://github.com/lgh2'><img src='https://avatars0.githubusercontent.com/u/17437250?v=4' width='72px;'/></a> | <a href='http://phildini.net'><img src='https://avatars3.githubusercontent.com/u/710999?v=4' width='72px;'/></a> | <a href='https://github.com/h34th3r329'><img src='https://avatars1.githubusercontent.com/u/15834992?v=4' width='72px;'/></a> |
-| <a href='http://twitter.com/jackmccloy'><img src='https://avatars2.githubusercontent.com/u/7756138?v=4' width='72px;'/></a> | <a href='https://github.com/ariannedee'><img src='https://avatars2.githubusercontent.com/u/2425730?v=4' width='72px;'/></a> | <a href='http://ana-balica.github.io/'><img src='https://avatars3.githubusercontent.com/u/2039122?v=4' width='72px;'/></a> | <a href='http://jonibologna.com/'><img src='https://avatars0.githubusercontent.com/u/5723303?v=4' width='72px;'/></a> | <a href='http://lmdragun.github.io'><img src='https://avatars0.githubusercontent.com/u/11346889?v=4' width='72px;'/></a> | <a href='https://www.davidfischer.name/'><img src='https://avatars3.githubusercontent.com/u/185043?v=4' width='72px;'/></a> | <a href='https://github.com/fcurella'><img src='https://avatars3.githubusercontent.com/u/89607?v=4' width='72px;'/></a> | <a href='http://thekennethlove.com'><img src='https://avatars1.githubusercontent.com/u/11908?v=4' width='72px;'/></a> |
-| <a href='https://github.com/katialira'><img src='https://avatars3.githubusercontent.com/u/8711200?v=4' width='72px;'/></a> | <a href='https://emullaney.github.io'><img src='https://avatars0.githubusercontent.com/u/11393311?v=4' width='72px;'/></a> | <a href='http://www.adamfast.com'><img src='https://avatars0.githubusercontent.com/u/135851?v=4' width='72px;'/></a> | <a href='http://robertroskam.com'><img src='https://avatars3.githubusercontent.com/u/806571?v=4' width='72px;'/></a> | <a href='http://www.rmcomplexity.com'><img src='https://avatars0.githubusercontent.com/u/4007280?v=4' width='72px;'/></a> | <a href='https://github.com/drewbrew'><img src='https://avatars1.githubusercontent.com/u/7773256?v=4' width='72px;'/></a> | <a href='https://github.com/oreo1029'><img src='https://avatars1.githubusercontent.com/u/24420647?v=4' width='72px;'/></a> | <a href='https://noumenal.es/'><img src='https://avatars1.githubusercontent.com/u/64686?v=4' width='72px;'/></a> |
-| <a href='https://github.com/rlconley'><img src='https://avatars1.githubusercontent.com/u/6653029?v=4' width='72px;'/></a> | <a href='https://flinkman.com'><img src='https://avatars1.githubusercontent.com/u/29408?v=4' width='72px;'/></a> | <a href='https://github.com/oboechick'><img src='https://avatars1.githubusercontent.com/u/15068476?v=4' width='72px;'/></a> | <a href='http://humrich.us'><img src='https://avatars1.githubusercontent.com/u/4661889?v=4' width='72px;'/></a> | <a href='http://nicolezuckerman.com'><img src='https://avatars0.githubusercontent.com/u/2499004?v=4' width='72px;'/></a> | <a href='https://github.com/troy2914'><img src='https://avatars0.githubusercontent.com/u/8680944?v=4' width='72px;'/></a> | <a href='https://github.com/bdeangelis'><img src='https://avatars0.githubusercontent.com/u/1050007?v=4' width='72px;'/></a> | <a href='https://github.com/jlgimeno'><img src='https://avatars0.githubusercontent.com/u/17421585?v=4' width='72px;'/></a> |
-| <a href='https://github.com/cedarfall'><img src='https://avatars2.githubusercontent.com/u/50991099?v=4' width='72px;'/></a> | <a href='https://github.com/VishvajitP'><img src='https://avatars3.githubusercontent.com/u/5609697?v=4' width='72px;'/></a> | <a href='http://nicoledominguez.com'><img src='https://avatars0.githubusercontent.com/u/915966?v=4' width='72px;'/></a> | <a href='https://github.com/darkcloud1801'><img src='https://avatars3.githubusercontent.com/u/5150596?v=4' width='72px;'/></a> | <a href='http://www.TheGeekyWay.com'><img src='https://avatars3.githubusercontent.com/u/8039608?v=4' width='72px;'/></a> | <a href='https://chriswilcox.dev'><img src='https://avatars2.githubusercontent.com/u/638797?v=4' width='72px;'/></a> | <a href='http://micahlyle.com'><img src='https://avatars1.githubusercontent.com/u/10660805?v=4' width='72px;'/></a> | <a href='https://github.com/apps/dependabot'><img src='https://avatars0.githubusercontent.com/in/29110?v=4' width='72px;'/></a> |
-| <a href='http://snowgiraffe.com'><img src='https://avatars3.githubusercontent.com/u/59829?v=4' width='72px;'/></a> | <a href='https://dane.engineering'><img src='https://avatars3.githubusercontent.com/u/1808306?v=4' width='72px;'/></a> | <a href='http://www.DawnWages.info/apps'><img src='https://avatars1.githubusercontent.com/u/20374042?v=4' width='72px;'/></a> | <a href='https://github.com/felipe-lee'><img src='https://avatars0.githubusercontent.com/u/35938642?v=4' width='72px;'/></a> | <a href='http://frances.codes'><img src='https://avatars2.githubusercontent.com/u/15336794?v=4' width='72px;'/></a> | <a href='https://github.com/mwhansen'><img src='https://avatars3.githubusercontent.com/u/374299?v=4' width='72px;'/></a> | <a href='https://coderanger.net/'><img src='https://avatars1.githubusercontent.com/u/128243?v=4' width='72px;'/></a> | <a href='http://treyhunner.com'><img src='https://avatars0.githubusercontent.com/u/285352?v=4' width='72px;'/></a> |
-| <a href='https://wsvincent.com'><img src='https://avatars0.githubusercontent.com/u/766418?v=4' width='72px;'/></a> |
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project uses the [`all-contributors-cli`](https://www.npmjs.com/package/all-contributors-cli). Contributions of any kind welcome!
+If you plan to continue working locally and submitting pull requests, you may want to add an upstream remote locally that points to the /dev/mtl repo, in order to fetch changes. You may also want to consider creating a feature branch (also known as a "topic" branch), making your changes there (instead of in the `main` branch), pushing to GitHub and submitting the update via pull request. You can then keep your `main` branch up-to-date while working on multiple features.
 
 ## License
 

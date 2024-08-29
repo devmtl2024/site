@@ -1,7 +1,6 @@
 
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
-DOMAIN = https://djangocon.us
-# DOMAIN = https://deploy-preview-45--djangoconus2021.netlify.app/  # <-- it was this last time!
+DOMAIN = https://devmtl2024.github.io
 IMAGE_SIZE = 1024x512
 # IMAGE_SIZE = 1400x700
 

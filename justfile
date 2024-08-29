@@ -1,7 +1,7 @@
 set dotenv-load := false
 
 # Replace DOMAIN with your Netlify link if our templates are not deployed yet.
-DOMAIN := "https://2021.djangocon.us"
+DOMAIN := https://devmtl2024.github.io/site/"
 
 IMAGE_SIZE := "1024x512"
 # IMAGE_SIZE = "1400x700"

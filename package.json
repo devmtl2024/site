@@ -1,7 +1,7 @@
 {
-  "name": "DevMtl",
+  "name": "dev-mtl",
   "version": "1.0.0",
-  "description": "/Dev/Mtl Website",
+  "description": "/dev/mtl Website",
   "devDependencies": {
     "all-contributors-cli": "^6.20.0",
     "css-loader": "^7.1.2",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djangocon/2019.djangocon.us"
+    "url": "https://github.com/devmtl2024/site"
   },
   "author": "DEFNA",
   "license": "MIT",
