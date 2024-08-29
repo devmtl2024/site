@@ -1,13 +1,14 @@
 ---
-abstract: Construisez un bot sur vos propres donnée avec l’API de GPT
+title: State Machines
+abstract: State Machines
 accepted: true
 category: talk
-date: 2024-11-27 08:00:00 -0500
-difficulty: All
+date: 2024-11-27 10:30:00 -0500
+meetup: TypeScript MTL
 image: /static/img/social/presenters/kojo-idrissa.png?v=2021-10-04
 layout: session-details
 permalink: /talks/ouverture-et-orientation/
-language: fr
+language: en
 presenter_slugs:
 - xavier-bouclet
 presenters:
@@ -63,7 +64,6 @@ tags:
 - DEFNA
 - Welcome
 talk_slot: full
-title:  Ouverture et orientation
 track: null
 video_url: https://youtu.be/1UMBbzq4be0
 ---

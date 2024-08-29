@@ -3,17 +3,7 @@
   {% if post.schedule-layout == 'full' %}
     <li>
       <article class="row hour-row">
-        <div class="column medium-2">
-          <time class="time">
-            <relative-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-              {{ post.date | date: "%b %d %l:%M %p %Z" }}
-            </relative-time>
-            {% if post.end_date %}&ndash;
-              <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
-            {% endif %}
-          </time>
-        </div>
-        <div class="column medium-10">
+        <div class="column">
           <ul class="events">
             {% include schedule-session-full.html %}
           </ul>
@@ -24,17 +14,7 @@
     {% if post.talk_slot == 'full' %}
       <li>
         <article class="row hour-row">
-          <div class="column medium-2">
-            <time class="time">
-              <relative-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-                {{ post.date | date: "%b %d %l:%M %p %Z" }}
-              </relative-time>
-              {% if post.end_date %}&ndash;
-                <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
-              {% endif %}
-            </time>
-          </div>
-          <div class="column medium-10">
+          <div class="column">
               <ul class="events">
                 {% include schedule-session.html %}
               </ul>
@@ -47,17 +27,7 @@
     	{% if slot == 'begin' %}
         <li>
           <article class="row hour-row">
-            <div class="column medium-2">
-              <time class="time">
-                <relative-time datetime="{{ post.date | date_to_xmlschema }}" month="short" day="numeric" hour="numeric" minute="numeric" time-zone-name="short">
-                  {{ post.date | date: "%b %d %l:%M %p %Z" }}
-                </relative-time>
-                {% if post.end_date %}&ndash;
-                  <span class="muted">{{ post.end_date | date: "%l:%M %P" }}</span>
-                {% endif %}
-              </time>
-            </div>
-            <div class="column medium-10">
+            <div class="column">
                 <ul class="events">
     	{% endif %}
 

@@ -7,67 +7,45 @@ published: true
 sitemap: true
 title: Talks Schedule
 ---
-<!-- talks: fr -->
+
 <section class="section-pad schedule">
   <div class="row column">
-    <h2 class="day">Présentation: Mercredi 27 Novembre</h2>
-    <ul class="schedule">
-      {% for post in site.schedule %}
-      {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-      {% if day == 'Wednesday' and post.language == 'fr' %}
-      {% include schedule-talks-day.html %}
-      {% endif %}
-      {% endfor %}
-    </ul>
+    <h2 class="day">Wednesday, November 27</h2>
+    <table class="schedule">
+      <thead>
+        <tr>
+          <th width="10%"></th>
+          <th width="45%" style="text-align: center;">Session FR 🇫🇷</th>
+          <th width="45%" style="text-align: center;">Track EN 🇬🇧</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% assign grouped_posts = site.schedule | group_by: 'date' %}
+        {% for date_group in grouped_posts %}
+        <tr>
+          <td style="font-family: 'Courier New', Courier, monospace; font-weight: 700;">{{ date_group.name | date: "%H:%M" }}</td>
+
+          {% assign post = date_group.items | where: 'language', 'fr' | first %}
+          <td>
+            {% if post %}
+              {% include schedule-talks-day.html %}
+            {% else %}
+              Présentation à venir
+            {% endif %}
+          </td>
+
+          {% assign post = date_group.items | where: 'language', 'en' | first %}
+          <td>
+            {% if post %}
+              {% include schedule-talks-day.html %}
+            {% else %}
+              Talk to be announced
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
 </section>
-<!-- talks: fr -->
-
-<!-- talks: en -->
-<section class="section-pad schedule">
-  <div class="row column">
-    <h2 class="day">Talks: Wednesday, November 27</h2>
-    <ul class="schedule">
-      {% for post in site.schedule %}
-      {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-      {% if day == 'Wednesday' and post.language == 'en' %}
-      {% include schedule-talks-day.html %}
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-<!-- talks: en -->
-
-
-<!-- talks: day 1 -->
-<section class="section-pad schedule">
-  <div class="row column">
-    <h2 class="day">Talks: Friday, October 22</h2>
-    <ul class="schedule">
-      {% for post in site.schedule %}
-        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-        {% if day == 'Friday' %}
-          {% include schedule-talks-day.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-<!-- talks: day 1 -->
-
-<!-- talks: day 2 -->
-<section class="section-pad schedule">
-  <div class="row column">
-    <h2 class="day">Talks: Saturday, October 23</h2>
-    <ul class="schedule">
-      {% for post in site.schedule %}
-        {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
-        {% if day == 'Saturday' %}
-          {% include schedule-talks-day.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</section>
-<!-- talks: day 2 -->

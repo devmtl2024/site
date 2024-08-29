@@ -70,7 +70,7 @@ This first set of front matter elements applies to all sessions, including meals
 The front matter elements listed below apply to all sessions with a speaker.
 
 - **abstract**: The abstract for the sessio
-- **difficulty**: Difficulty level of the session
+- **meetup**: meetup level of the session
 - **presenters**: Information about the presenters. Nested under this element are:
     - **name**: Name of presenter
     - **bio**: Bio for presenter

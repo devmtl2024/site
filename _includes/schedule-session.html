@@ -23,8 +23,8 @@
     {% if post.title %}
       <h3 class="event-title">{{ post.title }}</h3>
     {% endif %}
-    {% if post.difficulty %}
-      <span class="label"><span class="sr-only">Audience level: </span>{{ post.difficulty }}</span>
+    {% if post.meetup %}
+      <span class="label"><span class="sr-only">Meetup: </span>{{ post.meetup }}</span>
     {% endif %}
     {% if post.room %}
       <p class="location">{{ post.room }}</p>

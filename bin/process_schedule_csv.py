@@ -28,7 +28,7 @@ sitemap: false
 title: Break
 
 presenters:
-difficulty:
+meetup:
 
 date: {timestamp}
 schedule-layout: full
@@ -46,7 +46,7 @@ sitemap: false
 title: Lunch
 
 presenters:
-difficulty:
+meetup:
 
 date: {timestamp}
 schedule-layout: full

@@ -94,7 +94,7 @@ class Schedule(FrontmatterModel):
     abstract: Optional[str] = None
     accepted: bool = False
     category: Optional[str] = "talk"
-    difficulty: Optional[str] = "All"
+    meetup: Optional[str] = None
     image: Optional[str]
     layout: Optional[str] = "session-details"  # TODO: validate against _layouts/*.html
     presenter_slugs: Optional[List[str]] = None

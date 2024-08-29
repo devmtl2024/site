@@ -14,9 +14,9 @@ layout: base
     <a href="https://time.is/compare/{{ page.date | date: "%I%M%p_%d_%B_%Y" }}_in_Chicago" aria-label="View talk time on time.is">:calendar:</a>
     {% if page.end_date %} to {{ page.end_date | date: "%l:%M %P" }}{% endif %}
     {% comment %}, in {{ page.room }}{% endcomment %}
-    {% if page.difficulty %}
+    {% if page.meetup %}
       <br>
-      <span class="label"><span class="sr-only">Audience level: </span>{{ page.difficulty }}</span>
+      <span class="label"><span class="sr-only">Meetup: </span>{{ page.meetup }}</span>
     {% endif %}
   </p>
 </header>
