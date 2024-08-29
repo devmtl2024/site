@@ -1,10 +1,10 @@
 # Code of Conduct
 
-DjangoCon US is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
+/dev/mtl is dedicated to providing a fun harassment-free conference experience for everyone, regardless of gender, gender identity, sexual orientation, disability, physical appearance, body size, race, or religion.
 
 Be kind to others. Do not insult or put down other attendees. Behave professionally.
 
-Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for DjangoCon US.
+Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate for /dev/mtl.
 
 Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
 
@@ -13,27 +13,27 @@ Thank you for helping make this a welcoming, friendly event for all.
 ## Full Code of Conduct
 
 _To make clear what is expected, all delegates/attendees, speakers,
-exhibitors, organizers and volunteers at any DjangoCon US event are required
+exhibitors, organizers and volunteers at any /dev/mtl event are required
 to conform to the following Code of Conduct. Organizers will enforce this code
 throughout the event._
 
 ### What the conference is
 
-DjangoCon US is a community conference intended for networking and
+/dev/mtl is a community conference intended for networking and
 collaboration in the developer community.
 
-We value the participation of each member of the Django community and want all
+We value the participation of each member of the community and want all
 attendees to have an enjoyable and fulfilling experience. Accordingly, all
 attendees are expected to show respect and courtesy to other attendees
 throughout the conference, at all conference events, and in all conference
-online spaces (such as Slack), whether officially sponsored by DjangoCon US or
+online spaces (such as Discord), whether officially sponsored by /dev/mtl or
 not.
 
 ### Be Kind To Others
 
 Do not insult or put down other attendees. Behave professionally. Remember
 that harassment and sexist, racist, or exclusionary jokes are not appropriate
-for DjangoCon US. Attendees violating these rules may be asked to leave the
+for /dev/mtl. Attendees violating these rules may be asked to leave the
 conference without a refund at the sole discretion of the conference
 organizers.
 
@@ -54,7 +54,7 @@ unwelcome sexual attention.
 
 Be careful in the words that you choose. Remember that sexist, racist, and
 other exclusionary jokes can be offensive to those around you. Excessive
-swearing and offensive jokes are not appropriate for DjangoCon US. We are all
+swearing and offensive jokes are not appropriate for /dev/mtl. We are all
 adults, capable of having adult conversations. Preface your presentation with
 appropriate Trigger/Content Warnings, if necessary.
 
@@ -74,7 +74,7 @@ or otherwise create a sexualized environment.
 ## Photography
 
 In order to make /dev/mtl 2024 a great experience for everyone, do not
-photograph, video, or audio record anyone at DjangoCon without their express
+photograph, video, or audio record anyone at /dev/mtl without their express
 permission, sought in advance. If someone does not want to be photographed,
 video or audio recorded, please respect their wishes.
 
@@ -93,6 +93,6 @@ harassment/Policy), created by the Ada Initiative and other volunteers. which
 is under a Creative Commons Zero license.
 
 Conference Code of Conduct by
-[2021.djangocon.us/coc/](https://2021.djangocon.us/coc/) is licensed under a
+[devmtl2024.github.io/site/coc/](https://devmtl2024.github.io/site/coc) is licensed under a
 [Creative Commons Attribution 3.0 Unported
 License](http://creativecommons.org/licenses/by/3.0/).

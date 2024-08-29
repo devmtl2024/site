@@ -1,24 +1,13 @@
 <footer class="footer" role="contentinfo">
-
-  <a
-    class="footer-logo"
-    href="{{ site.url }}" aria-hidden="true">
-    <img src="{{ "/static/img/submark.svg" | relative_url }}"
-    alt="DjangoCon {{ site.conf_year }} | San Diego" />
+  <a class="footer-logo" href="{{ site.url }}" aria-hidden="true">
+    <img src="{{ "/static/img/logo.svg" | relative_url }}" alt="/dev/mtl {{
+    site.conf_year }}" />
   </a>
 
   <div class="row column">
     <ul class="social-icons">
       <li>
-        <a class="twitter" href="https://twitter.com/djangocon">
-          <svg class="social-icon">
-            <title>Twitter</title>
-            <use xlink:href="#twitter-icon"></use>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a class="github" href="https://github.com/djangocon/">
+        <a class="github" href="https://github.com/devmtl2024/site">
           <svg class="social-icon">
             <title>Github</title>
             <use xlink:href="#github-icon"></use>
@@ -26,10 +15,13 @@
         </a>
       </li>
       <li>
-        <a class="youtube" href="https://www.youtube.com/c/DjangoConUS">
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/company/dev-mtl/about/"
+        >
           <svg class="social-icon">
-            <title>YouTube</title>
-            <use xlink:href="#youtube-icon"></use>
+            <title>LinkedIn</title>
+            <use xlink:href="#linkedin-icon"></use>
           </svg>
         </a>
       </li>
@@ -37,18 +29,16 @@
 
     <p class="text-center">
       <strong>
-      Got questions? We can help:
-        <a
-          href="mailto:{{site.contact_us_email}}">{{site.contact_us_email}}</a>
+        Got questions? We can help:
+        <a href="mailto:{{site.contact_us_email}}">{{site.contact_us_email}}</a>
       </strong>
     </p>
 
     <small class="legal text-center">
-      &copy; {{ site.time | date: '%Y' }} DjangoCon US
-      &middot; Design by <a href="http://yupgup.com/">YupGup</a>
-      &middot; Presented by <a href="https://www.defna.org/">DEFNA</a>
+      &copy; {{ site.time | date: '%Y' }} /dev/mtl &middot; Design by
+      <a href="http://yupgup.com/">YupGup</a> &middot; Forked from
+      <a href="https://github.com/djangocon/2021.djangocon.us">DjangoCon US 2021</a>
       &middot; <a href="/conduct/">Code of Conduct</a>
-      &middot; <a href="/colophon/">Colophon</a>
     </small>
   </div>
 </footer>

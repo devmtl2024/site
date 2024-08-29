@@ -2,7 +2,7 @@ title: /dev/mtl
 url: "https://devmtl2024.github.io/site"
 author : Dev Mtl
 description: |
-  Dev Mtl 2024 will take place online on November 27, 2024!
+  /dev/mtl 2024 will take place on November 27, 2024!
 #enforce_ssl: "2021.djangocon.us"
 relative_permalinks: false
 permalink: news/:title/  # permalink: date
@@ -82,10 +82,9 @@ collections:  # process the _data folder
 # SEO Plugin settings
 
 twitter:
-  username: djangocon
+  username: ""
 
 # This is the default logo that people see with opengraph
-# logo: /static/2021-logos/squares-and-social/djangocon-square.png
 logo: /static/img/social/og.png
 
 
@@ -102,26 +101,23 @@ defaults:
     values:
       sitemap: false
 
-# Our DjangoCon US settings...
-
 schedule_show_video_urls: true
 
 ## All the email addresses
-conduct_email: "conduct@djangocon.us"
-contact_us_email: "hello@djangocon.us"
-opportunity_grants_email: "grants@djangocon.us"
-program_team_email: "program@djangocon.us"
-sponsors_email: "sponsors@djangocon.us"
-visa_email: "visas@djangocon.us"
+conduct_email: "nicolascarlo.espeon@gmail.com"
+contact_us_email: "nicolascarlo.espeon@gmail.com"
+opportunity_grants_email: "nicolascarlo.espeon@gmail.com"
+program_team_email: "nicolascarlo.espeon@gmail.com"
+sponsors_email: "nicolascarlo.espeon@gmail.com"
+visa_email: "nicolascarlo.espeon@gmail.com"
 
-## Our DjangoCon US links
-cfp_application: "https://www.papercall.io/djangocon-us-2021"
+cfp_application: ""
 hotel_reservation_link: ""
-mailing_list: "http://eepurl.com/bpvu2f"
+mailing_list: ""
 opportunity_grant_application: ""
-slack_link: ""
+discord_link: "https://discord.gg/bPRzrmVw"
 sponsorship_prospectus: ""
-ticket_link: "https://ti.to/defna/djangocon-us-2021"
+ticket_link: ""
 # youtube_link: ""
 
 github: [metadata]
