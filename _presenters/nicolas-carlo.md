@@ -4,7 +4,7 @@ github: maxday
 layout: speaker-template
 name: Nicolas Carlo
 permalink: /presenters/nicolas-carlo
-photo_url: /static/img/presenters/nicolas-carlo.jpeg
+photo_url: /static/img/presenters/nicolas-carlo.png
 slug: nicolas-carlo
 twitter: _maxday
 website: https://maxday.dev

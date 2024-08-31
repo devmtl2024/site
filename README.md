@@ -61,11 +61,30 @@ Follow the instructions below to run the website on a local server. GitHub recom
 
 #### Install Jekyll
 
-You might need to use ```$ sudo gem install jekyll bundler foreman```
+You might need to use ```sudo gem install jekyll bundler foreman```.
 
 ```bash
-$ gem install jekyll bundler
-$ bundle install
+gem install jekyll bundler
+bundle install
+```
+
+##### Use local installation on Debian-like
+
+Use [rbenv](https://github.com/rbenv/rbenv).
+
+```bash
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+~/.rbenv/bin/rbenv init
+```
+
+Bash or source or reload a terminal, and cd to the directory of this project.
+
+```bash
+git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
+rbenv install 3.1.6
+rbenv local 3.1.6
+gem install bundler jekyll
+bundle install
 ```
 
 #### Install Node Dependencies
