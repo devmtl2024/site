@@ -104,12 +104,12 @@ defaults:
 schedule_show_video_urls: true
 
 ## All the email addresses
-conduct_email: "nicolascarlo.espeon@gmail.com"
-contact_us_email: "nicolascarlo.espeon@gmail.com"
-opportunity_grants_email: "nicolascarlo.espeon@gmail.com"
-program_team_email: "nicolascarlo.espeon@gmail.com"
-sponsors_email: "nicolascarlo.espeon@gmail.com"
-visa_email: "nicolascarlo.espeon@gmail.com"
+conduct_email: "devmontreal.conf@gmail.com"
+contact_us_email: "devmontreal.conf@gmail.com"
+opportunity_grants_email: "devmontreal.conf@gmail.com"
+program_team_email: "devmontreal.conf@gmail.com"
+sponsors_email: "devmontreal.conf@gmail.com"
+visa_email: "devmontreal.conf@gmail.com"
 
 cfp_application: ""
 hotel_reservation_link: ""
