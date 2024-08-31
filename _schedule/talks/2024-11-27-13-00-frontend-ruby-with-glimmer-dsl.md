@@ -5,53 +5,22 @@ accepted: true
 category: talk
 date: 2024-11-27 13:00:00 -0500
 meetup: All
-image: /static/img/social/presenters/kojo-idrissa.png?v=2021-10-04
+image: /static/img/presenters/andy-maleh.jpeg
 layout: session-details
-permalink: /talks/ouverture-et-orientation/
+permalink: /talks/frontend-ruby
 language: en
 presenter_slugs:
-- xavier-bouclet
+- andy-maleh
 presenters:
 - bio: Drew (he/him) is the Vice President of the Django Events Foundation North America
     and the Program Chair of DCUS 2021. In his day job, he's a Senior Backend Engineer
     at The Noun Project
   company: DEFNA
   github: drewbrew
-  name: Drew Winstel
+  name: Andy Maleh
   photo_url: /static/img/organizers/drew.jpg
   twitter: hops_and_smoke
   website: http://amakarudze.pythonanywhere.com/
-- bio: Kojo Idrissa has been the Orientation, Lightning Talks, and Sprints Chair at
-    DCUS for many years. This year, he's only doing the first one, but that doesn't
-    mean he loves you any less.
-  company: ''
-  github: kojoidrissa
-  name: Kojo Idrissa
-  photo_url: /static/img/organizers/kojo.jpg
-  twitter: transitionswpz
-  website: https://kojoidrissa.com/
-- bio: Katia is the President of the Django Events Foundation North America.
-  company: ''
-  name: Katia Lira
-  photo_url: /static/img/organizers/katialira.jpg
-  twitter: ''
-  website: ''
-- bio: Catherine is the Sponsorship Co-Chair for DCUS 2021.
-  company: ''
-  name: Catherine Holmes
-  photo_url: /static/img/organizers/catherine.png
-  twitter: ''
-  website: ''
-- bio: "Josue Balandrano Coronel trabaja en el Texas Advanced Computing Center como
-    Ingeniero en Software ayudando a desarrollar Science Gateways.\r\nEstas Science
-    Gateways son usadas por diferentes investigadores a través de EUA para colaborar
-    y utilizar sistemas de High Performance Computing (HPC).\r\n"
-  company: GoDaddy
-  github: ''
-  name: Josue Balandrano Coronel
-  photo_url: /static/img/organizers/josue.jpg
-  twitter: rmcomplexity
-  website: https://rmcomplexity.com
 published: true
 room: ''
 show_video_urls: true

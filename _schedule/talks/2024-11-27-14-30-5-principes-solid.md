@@ -5,12 +5,12 @@ accepted: true
 category: talk
 date: 2024-11-27 14:30:00 -0500
 meetup: Software Crafters QC
-image: /static/img/social/presenters/kojo-idrissa.png?v=2021-10-04
+image: /static/img/presenters/xavier-balloy.jpeg
 layout: session-details
-permalink: /talks/ouverture-et-orientation/
+permalink: /talks/5-architecture-principles/
 language: fr
 presenter_slugs:
-- xavier-bouclet
+- xavier-balloy
 presenters:
 - bio: Drew (he/him) is the Vice President of the Django Events Foundation North America
     and the Program Chair of DCUS 2021. In his day job, he's a Senior Backend Engineer
