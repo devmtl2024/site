@@ -93,6 +93,6 @@ harassment/Policy), created by the Ada Initiative and other volunteers. which
 is under a Creative Commons Zero license.
 
 Conference Code of Conduct by
-[devmtl2024.github.io/site/coc/](https://devmtl2024.github.io/site/coc) is licensed under a
+[www.dev-mtl.ca/coc/](https://www.dev-mtl.ca/coc) is licensed under a
 [Creative Commons Attribution 3.0 Unported
 License](http://creativecommons.org/licenses/by/3.0/).

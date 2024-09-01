@@ -31,10 +31,10 @@ Pages are stored in `_pages/` and correspond to the different HTML pages on the 
 - **title**: Title of the page. Appears in the browser window.
 - **heading**: Title of the page. Appears at the top of the body of the page.
 - **permalink**: The URL path
-- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://devmtl2024.github.io/site/styleguide/#photo-hero-section)
+- **testimonial_img**: A path to the image you want to use for the [photo hero section](https://www.dev-mtl.ca/styleguide/#photo-hero-section)
 - **testimonial_img_mobile**: Same as **testimonial_img**, but for mobile
 - **hero_text_align**: How you want the text in the photo hero to be aligned
-- **hero-theme**: The [brand color](https://devmtl2024.github.io/site/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
+- **hero-theme**: The [brand color](https://www.dev-mtl.ca/styleguide/#color-guide) you want to use for the overlay of the photo hero section (example: `brand-color1` for Brand Color 1)
 - **description**: A description of this page
 
 ### Places
@@ -109,7 +109,7 @@ Below are some examples of commonly-used Markdown syntax. If you want to dive de
 
 ### Links
 
-[/dev/mtl 2024](https://devmtl2024.github.io/site/) - `[/dev/mtl 2024](https://devmtl2024.github.io/site/)`
+[/dev/mtl 2024](https://www.dev-mtl.ca/) - `[/dev/mtl 2024](https://www.dev-mtl.ca/)`
 
 ### Inline Images
 
