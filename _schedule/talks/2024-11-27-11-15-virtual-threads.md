@@ -5,18 +5,18 @@ accepted: true
 category: talk
 date: 2024-11-27 11:15:00 -0500
 meetup: JUG Montreal
-image: /static/img/presenters/benoit-combes.png
+image: /static/img/presenters/benoit-combe.png
 layout: session-details
 permalink: /talks/virtual-threads/
 language: fr
 presenter_slugs:
-- benoit-combes
+- benoit-combe
 presenters:
 - bio: todo
 #  company: todo
 #  github: todo
   name: Benoît
-  photo_url: /static/img/presenters/benoit-combes.png
+  photo_url: /static/img/presenters/benoit-combe.png
 #  twitter: hops_and_smoke
 #  website: http://amakarudze.pythonanywhere.com/
 published: true
