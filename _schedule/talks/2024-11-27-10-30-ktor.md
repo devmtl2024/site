@@ -20,7 +20,6 @@ presenters:
   # twitter: tbd
   # website: https://tbd
 published: true
-published: true
 room: ''
 show_video_urls: false
 sitemap: true
