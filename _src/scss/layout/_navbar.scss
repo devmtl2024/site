@@ -130,6 +130,11 @@
 
     .menu > li > a {
       font-size: .9rem;
+
+      &:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+      }
     }
   }
 

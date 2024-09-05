@@ -159,10 +159,6 @@
   height: 100px;
   text-decoration: none;
 
-  & + & {
-    margin-top: $global-margin / 2;
-  }
-
   .avatar {
     margin: 0 .5em 0 0;
     max-width: 60px;
