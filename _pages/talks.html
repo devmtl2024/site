@@ -15,37 +15,44 @@ title: Talks Schedule
       <thead>
         <tr>
           <th width="10%"></th>
-          <th width="45%" style="text-align: center;">Session FR 🇫🇷</th>
-          <th width="45%" style="text-align: center;">Track EN 🇬🇧</th>
+          <th width="45%" style="text-align: center">Session FR 🇫🇷</th>
+          <th width="45%" style="text-align: center">Track EN 🇬🇧</th>
         </tr>
       </thead>
 
       <tbody>
-        {% assign grouped_posts = site.schedule | group_by: 'date' %}
-        {% for date_group in grouped_posts %}
+        {% assign grouped_posts = site.schedule | group_by: 'date' %} {% for
+        date_group in grouped_posts %}
         <tr>
-          <td style="font-family: 'Courier New', Courier, monospace; font-weight: 700;">{{ date_group.name | date: "%H:%M" }}</td>
+          <td
+            style="
+              font-family: 'Courier New', Courier, monospace;
+              font-weight: 700;
+            "
+          >
+            {{ date_group.name | date: "%H:%M" }}
+          </td>
 
           {% assign post = date_group.items | where: 'language', 'fr' | first %}
           <td>
-            {% if post %}
-              {% include schedule-talks-day.html %}
-            {% else %}
-              Présentation à venir
-            {% endif %}
+            {% if post %} {% include schedule-talks-day.html %} {% else %}
+            Présentation à venir {% endif %}
           </td>
 
           {% assign post = date_group.items | where: 'language', 'en' | first %}
           <td>
-            {% if post %}
-              {% include schedule-talks-day.html %}
-            {% else %}
-              Talk to be announced
-            {% endif %}
+            {% if post %} {% include schedule-talks-day.html %} {% else %} Talk
+            to be announced {% endif %}
           </td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
+  </div>
+
+  <div class="row v-pad-top">
+    <div class="column small-12 text-center">
+      <a href="{{ site.ticket_link }}" class="button">Get your ticket</a>
+    </div>
   </div>
 </section>
