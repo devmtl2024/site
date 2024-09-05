@@ -9,5 +9,3 @@ slug: sebastien-castiel
 twitter: scastiel
 website: https://scastiel.dev/
 ---
-
-TODO

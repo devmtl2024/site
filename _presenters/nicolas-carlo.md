@@ -11,6 +11,6 @@ website: https://understandlegacycode.com
 
 Refactor Legacy Code. I build tools to help you do the same!
 
-I share tips & tricks to deal with Tech Debt • http://understandlegacycode.com
+I share tips & tricks to deal with Tech Debt • [understandlegacycode.com](https://understandlegacycode.com)
 
 Co-organizer of the Software Crafters MTL, React MTL, and Elixir MTL communities.

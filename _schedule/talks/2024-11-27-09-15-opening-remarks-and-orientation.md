@@ -21,7 +21,7 @@ tags:
 - Welcome
 talk_slot: full
 track: null
-video_url: ''
+# video_url: ''
 ---
 
 Cedric will try to say "Hello" in French and in English. He trained for 3 years for this moment.

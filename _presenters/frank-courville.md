@@ -7,7 +7,5 @@ permalink: /presenters/frank-courville
 photo_url: /static/img/presenters/frank-courville.jpeg
 slug: frank-courville
 twitter:
-website: 
+website:
 ---
-
-TODO

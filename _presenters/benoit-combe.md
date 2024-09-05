@@ -7,7 +7,5 @@ permalink: /presenters/benoit-combe
 photo_url: /static/img/presenters/benoit-combe.png
 slug: benoit-combe
 twitter:
-website: 
+website:
 ---
-
-TODO

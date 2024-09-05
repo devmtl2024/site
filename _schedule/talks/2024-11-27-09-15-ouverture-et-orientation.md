@@ -18,3 +18,5 @@ summary: ''
 talk_slot: full
 track: null
 ---
+
+Xavier va essayer de dire "Bonjour" en Anglais et en Français. Il s'est entraîné 3 ans pour ce moment.

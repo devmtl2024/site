@@ -4,7 +4,7 @@ abstract: Frontend Ruby with Glimmer DSL for Web
 accepted: true
 category: talk
 date: 2024-11-27 13:00:00 -0500
-meetup: All
+meetup: Ruby MTL
 image: /static/img/presenters/andy-maleh.jpeg
 layout: session-details
 permalink: /talks/frontend-ruby
@@ -12,29 +12,22 @@ language: en
 presenter_slugs:
 - andy-maleh
 presenters:
-- bio: Drew (he/him) is the Vice President of the Django Events Foundation North America
-    and the Program Chair of DCUS 2021. In his day job, he's a Senior Backend Engineer
-    at The Noun Project
-  company: DEFNA
-  github: drewbrew
-  name: Andy Maleh
-  photo_url: /static/img/organizers/drew.jpg
-  twitter: hops_and_smoke
-  website: http://amakarudze.pythonanywhere.com/
+- name: Andy Maleh
+  photo_url: /static/img/presenters/andy-maleh.jpeg
+  # bio: TBD
+  # company: TBD
+  # github: tbd
+  # twitter: tbd
+  # website: https://tbd
 published: true
 room: ''
-show_video_urls: true
+show_video_urls: false
 sitemap: true
 slides_url: ''
 summary: ''
 tags:
-- Django
-- DSF
-- DEFNA
-- Welcome
+- Ruby
 talk_slot: full
 track: null
-video_url: https://youtu.be/1UMBbzq4be0
+# video_url: ''
 ---
-
-Drew will give some opening remarks; Kojo will reprise his traditional orientation; and Katia, Catherine, and Josué will give some shout-outs to our sponsors.

@@ -12,16 +12,16 @@ language: en
 presenter_slugs:
 - cleaver-barnes
 presenters:
-- bio: TODO
-  company: DEFNA
-  github: drewbrew
-  name: Cleaver Barnes
+- name: Cleaver Barnes
   photo_url: /static/img/presenters/cleaver-barnes.jpeg
-  twitter: hops_and_smoke
-  website: http://amakarudze.pythonanywhere.com/
+  # bio: TBD
+  # company: TBD
+  # github: tbd
+  # twitter: tbd
+  # website: https://tbd
 published: true
 room: ''
-show_video_urls: true
+show_video_urls: false
 sitemap: true
 slides_url: ''
 summary: ''
@@ -29,7 +29,5 @@ tags:
 - Elixir
 talk_slot: full
 track: null
-video_url: https://youtu.be/1UMBbzq4be0
+# video_url: ''
 ---
-
-TODO
