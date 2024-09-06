@@ -4,19 +4,19 @@ abstract: TBD
 accepted: true
 category: talk
 date: 2024-11-27 13:45:00 -0500
-meetup: CocoaHeads MTL
-image: /static/img/presenters/frank-courville.jpeg
+meetup: Software Crafters MTL
+image: /static/img/presenters/armand-briere.png
 layout: session-details
-permalink: /talks/coacoa-heads
+permalink: /talks/software-crafters
 language: fr
 presenter_slugs:
-- frank-courville
+- armand-briere
 presenters:
-- name: Frank Courville
-  photo_url: /static/img/presenters/frank-courville.jpeg
+- name: Armand Brière
+  photo_url: /static/img/presenters/armand-briere.png
   # bio: TBD
-  # company: TBD
-  # github: tbd
+  company: Osedea
+  github: ArmandBriere
   # twitter: tbd
   # website: https://tbd
 published: true
@@ -26,7 +26,8 @@ sitemap: true
 slides_url: ''
 summary: ''
 tags:
-- CocoaHeads
+- Software Crafters MTL
+- AI
 talk_slot: full
 track: null
 # video_url: ''
