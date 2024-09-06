@@ -10,4 +10,4 @@ twitter: _maxday
 website: https://maxday.dev
 ---
 
-AWS Community Builder - Serverless enthusiast - 🧑🏻‍💻 Software Engineer | YouTube content creator based in Dublin
+Senior Software Engineer @AWS, Lambda Runtimes.
