@@ -47,8 +47,11 @@
 
 
 // Primary Colors
-$brand-color1: #E99C56;
-$brand-color2: #430632;
+// 01055e primary from Osedea (~blue)
+// ff9b63 primary from Osedea (~orange)
+// ff6c6c secondary from Osedea (~red)
+$brand-color1: #FF9B63; // #E99C56; // (~orange)
+$brand-color2: #01055E; // #430632; // (~violet)
 $brand-color3: #044059;
 $brand-color4: #A9CAD0;
 $brand-color5: #C73B3D;
@@ -114,7 +117,7 @@ $djangocon-palette: (
 
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Karla', Helvetica, sans-serif;
+$body-font-family: 'Open Sans', Helvetica, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -156,7 +159,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Rubik', Helvetica, sans-serif;
+$header-font-family: 'Roboto Slab', Helvetica, sans-serif;
 $header-font-weight: 500;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;

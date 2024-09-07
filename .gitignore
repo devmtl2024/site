@@ -10,4 +10,5 @@ node_modules
 *.stackdump
 /.bundle/
 /.jekyll-metadata
-
+.directory
+.ruby-version
