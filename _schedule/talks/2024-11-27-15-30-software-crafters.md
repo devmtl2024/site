@@ -1,6 +1,6 @@
 ---
-title: Event-driven architecture
-abstract: TBD
+title: Building Resilient Applications
+abstract: Building Resilient Applications
 accepted: true
 category: talk
 date: 2024-11-27 15:30:00 -0500
@@ -23,3 +23,5 @@ talk_slot: full
 track: null
 # video_url: ''
 ---
+
+What is "Resiliency" and why do we need to account for it when building software? In this talk we will discuss some of the considerations and tradeoffs to make when designing resilient applications and how to make sure that our systems are available for our customers.
