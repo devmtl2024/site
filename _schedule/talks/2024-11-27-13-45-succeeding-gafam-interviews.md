@@ -3,12 +3,12 @@ title: "Succeeding in GAFAM Interviews: My Genuine Experience"
 abstract: "Succeeding in GAFAM Interviews: My Genuine Experience"
 accepted: true
 category: talk
-date: 2024-11-27 15:30:00 -0500
+date: 2024-11-27 13:45:00 -0500
 meetup: AWS Montreal
 image: /static/img/presenters/maxime-david.jpeg
 layout: session-details
 permalink: /talks/succeeding-gafam-interviews/
-language: en
+language: fr
 presenter_slugs:
 - maxime-david
 presenters:
