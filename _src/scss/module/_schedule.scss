@@ -2,7 +2,13 @@
   background: $light-gray;
 }
 
+.schedule-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .schedule {
+  min-width: 800px;
   margin: 0;
   padding-right: 0;
   padding-left: 0;
@@ -10,6 +16,18 @@
 
   .day {
     font-weight: $global-weight-normal;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .schedule {
+    .events {
+      flex-direction: column;
+    }
+    
+    .event {
+      margin: 0 0 1rem 0;
+    }
   }
 }
 
