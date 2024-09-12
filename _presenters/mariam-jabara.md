@@ -6,7 +6,7 @@ name: Mariam Jabara
 permalink: /presenters/mariam-jabara
 photo_url: /static/img/presenters/mariam-jabara.jpeg
 slug: mariam-jabara
-website: ''
+website: https://www.linkedin.com/in/m-jabara/
 ---
 
-TBD
+AI Software Developer @ Osedea
