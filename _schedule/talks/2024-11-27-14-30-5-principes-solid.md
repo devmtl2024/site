@@ -32,3 +32,5 @@ talk_slot: full
 track: null
 # video_url: ''
 ---
+
+Les revues de code font partie des outils utilisés par les développeurs pour trouver les problèmes le plus tôt possible. Cependant, il est compliqué d’identifier ceux liés aux principes SOLID si on ne sait pas quoi regarder. Ainsi, plutôt que de vous proposer juste une définition des principes, je vous propose de vous montrer comment les reconnaître et les corriger si besoin.
