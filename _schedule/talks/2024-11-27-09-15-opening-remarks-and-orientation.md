@@ -10,7 +10,7 @@ layout: session-details
 permalink: /talks/opening-remarks-and-orientation/
 language: en
 presenter_slugs:
-- cedric-l-homme
+- nicolas-carlo
 published: true
 room: ''
 show_video_urls: false
