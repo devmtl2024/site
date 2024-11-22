@@ -3,7 +3,7 @@ title: Building Resilient Applications
 abstract: Building Resilient Applications
 accepted: true
 category: talk
-date: 2024-11-27 15:30:00 -0500
+date: 2024-11-27 13:45:00 -0500
 meetup: Software Crafters MTL
 image: /static/img/presenters/david-guida.jpeg
 layout: session-details
