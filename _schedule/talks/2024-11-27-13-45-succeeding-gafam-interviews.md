@@ -1,6 +1,6 @@
 ---
-title: "Succeeding in GAFAM Interviews: My Genuine Experience"
-abstract: "Succeeding in GAFAM Interviews: My Genuine Experience"
+title: "Réussir les entretiens GAFAM : Mon expérience authentique"
+abstract: "Réussir les entretiens GAFAM : Mon expérience authentique"
 accepted: true
 category: talk
 date: 2024-11-27 13:45:00 -0500
@@ -36,6 +36,6 @@ track: null
 # video_url: ''
 ---
 
-In this presentation, I will share my journey and the lessons I’ve learned from my interviews with GAFAM companies, with full transparency, highlighting both my successes and failures.
-I will reveal concrete tips and proven strategies to maximize your chances of success in these demanding, yet accessible, selection processes.
-My unfiltered experience will offer you a realistic perspective to better prepare yourself, helping you avoid the mistakes I made.
+Dans cette présentation, je vais partager mon parcours et les leçons que j’ai tirées de mes entretiens avec les entreprises GAFAM, avec une transparence totale, en mettant en lumière à la fois mes succès et mes échecs.
+Je vais révéler des conseils concrets et des stratégies éprouvées pour maximiser vos chances de réussite dans ces processus de sélection exigeants, mais accessibles.
+Mon expérience sans filtre vous offrira une perspective réaliste pour mieux vous préparer, en vous aidant à éviter les erreurs que j’ai commises.
